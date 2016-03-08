@@ -43,6 +43,9 @@ p {
    font-weight: normal;
    font-style: normal;
 }
+p.note::before {
+    content: "Opmerking: \A";
+}
 
 
 
