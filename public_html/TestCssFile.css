@@ -7,9 +7,14 @@ and open the template in the editor.
     Created on : Mar 8, 2016, 8:59:53 AM
     Author     : steven.vandenberghe
 */
-
+body {
+    margin:0;
+    padding:0;
+    background-image: url(img/Background2.png);
+    background-size: 100%
+}
 div.container {
-   width: 80%;
+   width: 99%;
    border: 1em solid black;
    margin: 0 auto;
    transform: rotate(10deg);
@@ -26,7 +31,7 @@ div.binnen {
 }
 div.demobox{
     width: 400px;
-    height: 400px;
+    height: 1000px;
     margin: 0 auto;
     border: 1px solid black;
     border-radius: 2em;
@@ -35,14 +40,15 @@ div.demobox{
     z-index: 1;
     background-image: url(img/logo.jpg);
     opacity: 1;
+    text-align:center;
 }
 .fonttest {
     font-family: 'Tangerine', serif;
-    font-size: 28px;
+    font-size: 800%;
 }
 p {
    font-family: 'LilGroteskRegular';
-   font-weight: normal;
+   font-weight: bold;
    font-style: normal;
 }
 p.note::before {
@@ -51,7 +57,7 @@ p.note::before {
 div.logo {
     background-color: #2e3192;
     width: 100%;
-    height: 200px;
+    height: 250px;
 }
 .logo img {
     max-height: 100%;
