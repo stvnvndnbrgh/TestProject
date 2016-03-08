@@ -31,8 +31,10 @@ div.demobox{
     border: 1px solid black;
     border-radius: 2em;
     box-shadow: green 20px 10px;
-    background-image: url(img/salvia80.jpg);
-    opacity: 0.5;
+    background-color: #FFFFFF;
+    z-index: 1;
+    background-image: url(img/logo.jpg);
+    opacity: 1;
 }
 .fonttest {
     font-family: 'Tangerine', serif;
@@ -46,8 +48,17 @@ p {
 p.note::before {
     content: "Opmerking: \A";
 }
-
-
+div.logo {
+    background-color: #222d5a;
+    width: 750px;
+    height: 590px;
+    margin: 0 auto;
+}
+.logo img {
+    max-height: 100%;
+    max-width: 100%;
+    outline: 1px dashed black
+}
 
 
 .clearFix:before, .clearFix:after {
