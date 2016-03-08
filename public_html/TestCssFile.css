@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 8, 2016, 8:59:53 AM
+    Author     : steven.vandenberghe
+*/
+
+div.container {
+   width: 80%;
+   border: 1em solid black;
+   margin: 0 auto;
+}
+
+div.binnen {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    border: 1em silver ridge;
+}
+div.demobox{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 2em;
+    box-shadow: green 20px 10px;
+    background-image: url(img/salvia80.jpg);
+    opacity: 0.5;
+}
+.fonttest {
+    font-family: 'Tangerine', serif;
+    font-size: 28px;
+}
+p {
+   font-family: 'LilGroteskRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+
+
+.clearFix:before, .clearFix:after {
+    content:" ";
+    display: table;
+}
+.clearFix:after {
+    clear: both;
+}
